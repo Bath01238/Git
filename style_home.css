@@ -1,0 +1,214 @@
+body{
+    background-color:rgb(11, 11, 11);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    
+}
+.container{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    margin: 100px;
+}
+.menu-bar{
+    color: white;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    /* background-color: rgb(255, 0, 212); */
+    justify-content:space-between;
+}
+.logo{
+    /* width: 30%; */
+    height: auto;
+    overflow: hidden;
+    /* background-color: blue; */
+    margin: 10px 25px;
+    font-size: 20px;
+}
+.menu{
+    /* width: 70%; */
+    height: auto;
+    overflow: hidden;
+    text-shadow: #00ffff;
+    /* background-color: rgb(138, 13, 240); */
+}
+.navbar{
+    padding: o;
+    margin: 0;
+}
+.menu .navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li {
+    padding: 0px 40px;
+} 
+.navbar ul li a {
+    text-decoration: none;
+    color: #f3f4f4 ;
+    font-size: 18px;
+}
+.navbar ul li a:hover {
+    color:#10ade1f4;
+    transform:translatex(3px);
+}
+.navbar ul li  a:active {
+  transform: scale(0.98);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  background-color: #4e524d4b;
+}
+
+
+
+
+/* section middle */
+.section{
+    width:90% ;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    margin: auto;
+}
+.menu-home{
+    width:50%;
+    height: 600px;
+    margin: 40px 0px;
+    box-sizing: border-box;
+    /* padding-left: 25px;   */
+    /* background-color: green;  */
+    padding-left: 10px;
+}
+.home-text{
+    color:white;
+}
+.home-text h3{
+    font-size: 35px;
+}
+.home-text h1{
+    font-size: 60px;
+}
+.home-text .h3{
+    font-size: 35px;
+    animation: word 8s linear infinite alternate;
+    color:#00ffff;
+}
+@keyframes word {
+    0% {opacity: 0;}
+    50%{opacity: 5;}
+    100%{opacity: 0;}
+}
+.home-text p{
+    font-size: 20px;
+}
+
+/* icon css */
+.home-icon{
+    display: flex;
+    margin-top: 40px;
+    gap:15px;
+}
+.fa-facebook{
+    
+    color:#00ffff;
+    font-size: 50px;
+    text-shadow: 0 0 3px #00ffff,
+                0 0 5px #1eb1b1;
+    
+}
+.fa-facebook:hover{
+ transform: scale(1.1);
+ color:#f3f4f4;
+}
+.fa-instagram{
+    color:#00ffff;
+    font-size: 50px;
+    text-shadow: 0 0 3px #00ffff,
+                0 0 5px #1eb1b1; 
+}
+.fa-instagram:hover{
+    transform: scale(1.1);
+    color:#f3f4f4;
+}
+.fa-telegram{
+    color:#00ffff;
+    font-size: 50px;
+    text-shadow: 0 0 3px #00ffff,
+                0 0 5px #1eb1b1; 
+}
+.fa-telegram:hover{
+    transform: scale(1.1);
+    color:#f3f4f4;
+}
+
+
+/* img right */
+.menu-img{
+    width: 50%;
+    height: auto;
+    /* background-color: #1eb1b1; */
+    margin: 40px 0;
+   
+}
+.menu-img .menu-home-img{
+    width: 430px;
+    height: 430px;
+  
+    background-image: url(./img/download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 45px;
+    box-shadow:
+    0 0 20px 0px rgba(0, 200, 255, 0.7),
+    0 0 40px 0px rgba(0, 200, 255, 0.5),
+    0 0 60px 0px rgba(0, 200, 255, 0.3);
+
+    animation: float 3s ease-in-out infinite alternate;
+
+}
+@keyframes float {
+    from { transform: translateY(0); }
+    to   { transform: translateY(-20px); }
+}
+
+/* button home   */
+.home-btn{
+    width: 30%;
+    margin-top: 35px;
+    
+}
+.btn{
+    font-size: 20px;
+    padding: 5px 50px;
+    background-color: #00ffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow:0 0 10px #00ffff;
+   
+}
+.btn a {
+    text-decoration: none;
+    color:#0a0a0a;
+    align-items: center;
+
+}
+.btn:hover{
+    background: #00ffffd8 ;
+}
+

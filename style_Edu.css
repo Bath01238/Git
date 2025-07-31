@@ -1,0 +1,260 @@
+body{
+    background-color:rgb(11, 11, 11);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    
+}
+.container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    margin: 100px;
+}
+.menu-bar{
+    color: white;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    /* background-color: rgb(255, 0, 212); */
+    justify-content:space-between;
+}
+.logo{
+    /* width: 30%; */
+    height: auto;
+    overflow: hidden;
+    /* background-color: blue; */
+    margin: 10px 25px;
+    font-size: 20px;
+}
+.menu{
+    /* width: 70%; */
+    height: auto;
+    overflow: hidden;
+    text-shadow: #00ffff;
+    /* background-color: rgb(138, 13, 240); */
+}
+.navbar{
+    padding: o;
+    margin: 0;
+}
+.menu .navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.navbar ul li {
+    padding: 0px 40px;
+} 
+.navbar ul li a {
+    text-decoration: none;
+    color: #f3f4f4 ;
+    font-size: 18px;
+}
+.navbar ul li a:hover {
+    color:#10ade1f4;
+    transform:translatex(3px);
+}
+.navbar ul li  a:active {
+  transform: scale(0.98);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  background-color: #4e524d4b;
+}
+
+.section{
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+    margin-top: 10px;
+}
+.text-header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    color:#0FEBB1;
+    justify-content: center;
+}
+.head-1{
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#EE23CF;
+}
+
+
+
+/* header-context1 */
+.content-mode{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+/* context-text-1 */
+.education-section {
+      /* width:551px;
+      height: 294px; */
+     
+    }
+    .education-card {
+      background-color: #2e2e2e;
+      border-radius: 20px;
+      padding: 1rem 1.5rem;
+      margin-top: 1rem;
+      box-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
+      width:551px;
+      height: 200px;
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      font-size: 1rem;
+      color: white;
+    }
+    .card-content p {
+      margin: 0.5rem 0;
+      color: #ccc;
+    }
+.fa-book{
+    font-size: 15px;
+    color:#00ffcc;
+    padding-right:10px ;
+}
+
+
+
+
+/* context-2 */
+.education-section-1 {
+      /* width:551px;
+      height: 294px; */
+     
+    }
+.education-card-1 {
+      background-color: #2e2e2e;
+      border-radius: 20px;
+      padding: 1rem 1.5rem;
+      margin-top: 1rem;
+      box-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
+      width:551px;
+      height: 200px;
+
+}
+    .card-header-1 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      font-size: 1rem;
+      color:white;
+    }
+
+    .card-header-1::before {
+      margin-right: 0.5rem;
+    }
+
+    .card-content-1 p {
+      margin: 0.5rem 0;
+      color: #ccc;
+    }
+.fa-hand{
+    font-size: 15px;
+    color:#00ffcc;
+    padding-right:10px;
+}
+
+
+
+
+/* display line 2 context3 */
+.content-mode-2{
+    margin: auto;
+    margin-bottom: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.education-section-2 {
+      /* width:551px;
+      height: 294px; */
+      
+    }
+    .education-card-2 {
+      background-color: #2e2e2e;
+      border-radius: 20px;
+      padding: 1rem 1.5rem;
+      margin-top: 1rem;
+      box-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
+      width:551px;
+      height: 200px;
+    }
+
+    .card-header-2 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      font-size: 1rem;
+      color: white;
+     
+    }
+    .card-content-2 p {
+      margin: 0.5rem 0;
+      color: #ccc;
+
+    }
+.fa-certificate{
+    font-size: 15px;
+    color:#00ffcc;
+    padding-right:10px;
+}
+
+
+
+
+/* display line 2 context4 */
+.education-section-3 {
+      /* width:551px;
+      height: 294px; */
+      
+   } 
+    .education-card-3 {
+      background-color: #2e2e2e;
+      border-radius: 20px;
+      padding: 1rem 1.5rem;
+      margin-top: 1rem;
+      box-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
+      width:551px;
+      height: 200px;
+    }
+
+    .card-header-3 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      font-size: 1rem;
+      color: white;
+    }
+    .card-content-3 p {
+      margin: 0.5rem 0;
+      color: #ccc;
+
+    }
+.fa-brain{
+    font-size: 15px;
+    color:#00ffcc;
+    padding-right:10px;
+}
