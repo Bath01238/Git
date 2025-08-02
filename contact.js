@@ -10,7 +10,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   };
 
   // I know bro rigt now you already pull code. You need change these service and template to your service aand template id  
-  emailjs.send("service_8prsy26", "template_0end7w6", templateParams)
+  emailjs.send("service_wypyloe", "template_ftt7vzc", templateParams)
     .then(function(response) {
        alert("Message sent successfully!");
        document.getElementById("contactForm").reset();
