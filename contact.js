@@ -1,13 +1,21 @@
-document.getElementById("contactForm").addEventListener("submit", function (e) {
+document.getElementById("contactForm").addEventListener("submit", function(e) {
   e.preventDefault();
 
-  const Username = document.getElementById("name").value.trim();
-  const email = document.getElementById("email").value.trim();
-  const subject = document.getElementById("subject").value;
-  const message = document.getElementById("message").value.trim();
-  const phone = document.getElementById("phone").value.trim();
+  const templateParams = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    phone: document.getElementById("phone").value,
+    subject: document.getElementById("subject").value,
+    message: document.getElementById("message").value,
+  };
 
-  const body = `Name: ${name}%0AEmail: ${email}%0APhone: ${phone}%0A%0AMessage:%0A${message};`
-  const mailtoLink =`mailto:donasambath75@gmail.com?subject=${encodeURIComponent(subject)}&body=${body};`
-  window.location.href = mailtoLink;
+  // I know bro rigt now you already pull code. You need change these service and template to your service aand template id  
+  emailjs.send("service_8prsy26", "template_0end7w6", templateParams)
+    .then(function(response) {
+       alert("Message sent successfully!");
+       document.getElementById("contactForm").reset();
+    }, function(error) {
+       alert("Failed to send message. Please try again.");
+       console.error("Error:", error);
+    });
 });
